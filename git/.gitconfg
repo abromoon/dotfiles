@@ -1,0 +1,11 @@
+[init]
+	defaultBranch = main
+[user]
+	name = 
+	email = 
+[push]
+	default = current
+	autoSetupRemote = true
+[core]
+	autocrlf = input
+	editor = code --wait
