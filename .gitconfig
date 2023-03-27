@@ -1,0 +1,26 @@
+[init]
+	defaultBranch = main
+[user]
+	name = 
+	email = 
+[push]
+	default = current
+	autoSetupRemote = true
+[core]
+	autocrlf = input
+	editor = code --wait
+[alias]
+	c = commit --verbose
+	p = push
+	l = pull
+	loga = log --oneline --decorate --graph --all
+	m = merge
+	st = status
+	ss = status --short
+	rmc = rm --cached
+	co = checkout
+	cp = cherry-pick
+	cmsg = commit --message
+	cb = checkout -b
+	a = add
+	aa = add --all
